@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<?php
+//on charge un fichier de parametrage
+include('config/settings.php');
+
+?><!DOCTYPE html>
 <html>
 <head>
 	<title></title>

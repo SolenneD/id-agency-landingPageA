@@ -31,7 +31,7 @@ $error = false;
 	else{
 
 		//on crée une requete qui ajoute dans la base
-		$add = $db->prepare('INSERT INTO email (created, updated, email) VALUES (NOW(), NOW(), :e');
+		$add = $db->prepare('INSERT INTO email (created, updated, email) VALUES ( NOW(), NOW(), :e)');
 		//on ajoute les données du formulaire
 		$add->bindParam(':e', $_POST['email'], PDO::PARAM_STR);
         
