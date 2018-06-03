@@ -18,13 +18,13 @@
 		<div class="baseline col-7">
 			<h1>Vivez au rythme de vos pulsations avec Pace Me</h1>
 			
-			<p>Que vous soyez seul ou à deux, prenez du plaisir avec vos groupe préférés !</p>	
+			<p>Que vous soyez seul ou à deux, prenez du plaisir avec vos groupes préférés !</p>
 		</div>
 		<div class="col-5 contact">
 			<h2>Si vous êtes intéressé par notre projet laissez nous votre email !</h2>
-			<form action="/action_page.php" method="post">
-				<input class="" type="email" name="lastname" placeholder="Adresse email">
-				<input class="" type="submit" value="Envoyer">
+			<form action="core/addEmail.php" method="post">
+				<input type="email" name="email" placeholder="Adresse email">
+				<input type="submit" value="Envoyer">
 			</form> 
 		</div>
 	</div>
