@@ -5,6 +5,11 @@ include('config/settings.php');
 ?><!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
+    <title>Paceme - Laissez votre corps guider la musique</title>
+
+
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120265874-1"></script>
     <script>
@@ -14,13 +19,7 @@ include('config/settings.php');
 
         gtag('config', 'UA-120265874-1');
     </script>
-    <!--  Google Analytics  -->
-    <script>
-        dataLayer = [{
-            'pageCategory': 'signup',
-            'visitorType': 'high-value'
-        }];
-    </script>
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -29,16 +28,13 @@ include('config/settings.php');
         })(window,document,'script','dataLayer','GTM-KPP7XMR');</script>
     <!-- End Google Tag Manager -->
 
-
-
-    <title>Paceme - Laissez votre corps guider la musique</title>
-	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Synchronisez passion musicale et plaisir infini avec votre nouvelle bague connectée">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPP7XMR"
                       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
