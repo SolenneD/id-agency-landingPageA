@@ -28,45 +28,71 @@ include('config/settings.php');
         })(window,document,'script','dataLayer','GTM-KPP7XMR');</script>
     <!-- End Google Tag Manager -->
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Synchronisez passion musicale et plaisir infini avec votre nouvelle bague connectée">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Synchronisez passion musicale et plaisir infini avec votre nouvelle bague connectée">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+
+    <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-120265874-1']);
+        _gaq.push(['_trackEvent']);
+
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>
 </head>
 <body>
-
+<div class="wrapper">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KPP7XMR"
                       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
 
-	<header>
-		<div class="logo">
-			<img src="" alt="logo-paceme">
-		</div>
-	</header>
-	
-	<div class="row">
-		<div class="baseline col-7">
-			<h1>Vivez au rythme de vos pulsations avec Pace Me</h1>
-			
-			<p>Que vous soyez seul ou à deux, prenez du plaisir avec vos groupes préférés !</p>
-		</div>
-		<div class="col-5 contact">
-			<h2>Si vous êtes intéressé par notre projet laissez nous votre email !</h2>
-			<form action="core/addEmail.php" method="post">
-				<input type="email" name="email" placeholder="Adresse email">
-				<input type="submit" value="Envoyer">
-			</form> 
-		</div>
-	</div>
-	<footer>
-		<ul>
-			<li><a href="" />Facebook</li>
-			<li><a href="" />Instagram</li>
-			<li><a href="" />Twitter</li>
-		</ul>
-		
-	</footer>
+    <header>
+        <div class="logo">
+            <img src="" alt="logo-paceme">
+        </div>
+    </header>
+
+    <div class="baseline">
+        <h1>Pace Me</h1>
+        <h2>Laissez votre corp guider la musique</h2>
+    </div>
+
+    <div class="heartbeat">
+
+
+    </div>
+
+    <p>Si vous êtes intéressé par notre projet laissez nous votre email !</p>
+
+    <form action="core/addEmail.php" method="post">
+        <input type="email" name="email" placeholder="Votre email">
+        <input onClick="_gaq.push(['_trackEvent', 'Formulaire', 'Clic', 'LandingPage']);" title="Formulaire" type="submit" value="Envoyer">
+    </form>
+
+
+    <ul>
+        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Facebook', 'Clic', 'LandingPage']);" title="Facebook" />Facebook</li>
+        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Instagram', 'Clic', 'LandingPage']);" title="Instagram" />Instagram</li>
+        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Twitter', 'Clic', 'LandingPage']);" title="Twitter" />Twitter</li>
+    </ul>
+
+
+</div>
+
+<script>
+    var pageTracker = _gat._getTracker('UA-120265874-1');
+    pageTracker._trackPageview();
+</script>
+
 </body>
+</html>
