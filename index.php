@@ -64,7 +64,7 @@ include('config/settings.php');
 
     <div class="baseline">
         <h1>Pace Me</h1>
-        <h2>Laissez votre corp guider la musique</h2>
+        <h2>Laissez votre corps guider la musique</h2>
     </div>
 
     <div class="heartbeat">
@@ -72,19 +72,20 @@ include('config/settings.php');
 
     </div>
 
-    <p>Si vous êtes intéressé par notre projet laissez nous votre email !</p>
+    <p class="baseline2">Si vous êtes intéressé par notre projet laissez nous votre email !</p>
 
     <form action="core/addEmail.php" method="post">
         <input type="email" name="email" placeholder="Votre email">
         <input onClick="_gaq.push(['_trackEvent', 'Formulaire', 'Clic', 'LandingPage']);" title="Formulaire" type="submit" value="Envoyer">
     </form>
-
-
-    <ul>
-        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Facebook', 'Clic', 'LandingPage']);" title="Facebook" />Facebook</li>
-        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Instagram', 'Clic', 'LandingPage']);" title="Instagram" />Instagram</li>
-        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Twitter', 'Clic', 'LandingPage']);" title="Twitter" />Twitter</li>
-    </ul>
+    <footer>
+        <a class="mention-legal" href="legales.html">Mentions légales</a>
+    </footer>
+<!--    <ul>-->
+<!--        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Facebook', 'Clic', 'LandingPage']);" title="Facebook" />Facebook</li>-->
+<!--        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Instagram', 'Clic', 'LandingPage']);" title="Instagram" />Instagram</li>-->
+<!--        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Twitter', 'Clic', 'LandingPage']);" title="Twitter" />Twitter</li>-->
+<!--    </ul>-->
 
 
 </div>
@@ -93,6 +94,8 @@ include('config/settings.php');
     var pageTracker = _gat._getTracker('UA-120265874-1');
     pageTracker._trackPageview();
 </script>
+
+
 
 </body>
 </html>
