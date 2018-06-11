@@ -32,7 +32,7 @@ include('config/settings.php');
     <meta name="description" content="Synchronisez passion musicale et plaisir infini avec votre nouvelle bague connectée">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet">
 
     <script type="text/javascript">
 
@@ -58,7 +58,11 @@ include('config/settings.php');
 
     <header>
         <div class="logo">
-            <img src="" alt="logo-paceme">
+            <a href="http://www.paceme.fr/">
+                <img src="src/logo_desktop.png" alt="logo-paceme" class="desktop">
+                <img src="src/logo_tablette.png" alt="logo-paceme" class="tablette">
+                <img src="src/logo_mobile.png" alt="logo-paceme" class="mobile">
+            </a>
         </div>
     </header>
 
@@ -74,18 +78,43 @@ include('config/settings.php');
 
     <p class="baseline2">Si vous êtes intéressé par notre projet laissez nous votre email !</p>
 
-    <form action="core/addEmail.php" method="post">
-        <input type="email" name="email" placeholder="Votre email">
-        <input onClick="_gaq.push(['_trackEvent', 'Formulaire', 'Clic', 'LandingPage']);" title="Formulaire" type="submit" value="Envoyer">
-    </form>
+
+    <!-- Begin MailChimp Signup Form -->
+    <link href="" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup{font:14px Raleway, Helvetica,Arial,sans-serif; }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+        <form action="https://paceme.us18.list-manage.com/subscribe/post?u=8b438dbb969f7eec547e5c09c&amp;id=b0cf319dda" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+
+                <div class="mc-field-group">
+                    <label for="mce-EMAIL"> </label>
+                    <input type="email" value="" name="EMAIL" class="required email" placeholder="Votre email" id="mce-EMAIL">
+                    <div class="clear"><input type="submit" value="ENVOYER" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+                <div id="mce-responses" class="clear">
+                    <div class="response" id="mce-success-response" style="display:none"></div>
+                </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8b438dbb969f7eec547e5c09c_b0cf319dda" tabindex="-1" value=""></div>
+
+            </div>
+        </form>
+    </div>
+    <script type='text/javascript' src='js/mailchimp.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+    <!--End mc_embed_signup-->
+
+
+
+<!--    <form action="core/addEmail.php" method="post">-->
+<!--        <input type="email" name="email" placeholder="Votre email">-->
+<!--        <input onClick="_gaq.push(['_trackEvent', 'Formulaire', 'Clic', 'LandingPage']);" title="Formulaire" type="submit" value="Envoyer">-->
+<!--    </form>-->
     <footer>
         <a class="mention-legal" href="legales.html">Mentions légales</a>
     </footer>
-<!--    <ul>-->
-<!--        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Facebook', 'Clic', 'LandingPage']);" title="Facebook" />Facebook</li>-->
-<!--        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Instagram', 'Clic', 'LandingPage']);" title="Instagram" />Instagram</li>-->
-<!--        <li><a href="" onClick="_gaq.push(['_trackEvent', 'Page Twitter', 'Clic', 'LandingPage']);" title="Twitter" />Twitter</li>-->
-<!--    </ul>-->
 
 
 </div>
