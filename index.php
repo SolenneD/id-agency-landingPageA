@@ -33,6 +33,9 @@ include('config/settings.php');
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
 
     <script type="text/javascript">
 
@@ -64,6 +67,20 @@ include('config/settings.php');
                 <img src="src/logo_mobile.png" alt="logo-paceme" class="mobile">
             </a>
         </div>
+        <div class="rs-desktop">
+            <a href="https://www.facebook.com/PaceMe-209051689596687/" target="_blank">
+                <i class="fab fa-facebook-f fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/paceme_rock" target="_blank">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/paceme_rock/" target="_blank">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+<!--            <a href="https://www.facebook.com/PaceMe-209051689596687/" target="_blank">-->
+<!--                <i class="fab fa-soundcloud fa-2x"></i>-->
+<!--            </a>-->
+        </div>
     </header>
 
     <div class="baseline">
@@ -72,6 +89,9 @@ include('config/settings.php');
     </div>
 
     <div class="heartbeat">
+        <svg width="1920" height="200" viewBox="0 0 1920 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="path" fill="" stroke="#FFFFFF" d="M0 115.426L1486.71 115.426C1545.68 115.426 1654.49 110.235 1674.42 51.5355C1699.34 -21.8387 1762.46 -12.3549 1782.39 51.5355C1802.33 115.426 1831.03 246.577 1870.43 179.316C1900.33 128.28 1917.77 75.8699 1961.79 115.426C2003.58 152.979 1995.02 115.426 2050.66 115.426C2095.18 115.426 3015.5 115.426 3250 115.426" transform="translate(-807 1)" stroke-width="2"/>
+        </svg>
 
 
     </div>
@@ -112,8 +132,25 @@ include('config/settings.php');
 <!--        <input type="email" name="email" placeholder="Votre email">-->
 <!--        <input onClick="_gaq.push(['_trackEvent', 'Formulaire', 'Clic', 'LandingPage']);" title="Formulaire" type="submit" value="Envoyer">-->
 <!--    </form>-->
+
     <footer>
         <a class="mention-legal" href="legales.html">Mentions légales</a>
+
+        <div class="rs-mobile">
+            <a href="https://www.facebook.com/PaceMe-209051689596687/" target="_blank">
+                <i class="fab fa-facebook-f fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/paceme_rock" target="_blank">
+                <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/paceme_rock/" target="_blank">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+<!--            <a href="https://www.facebook.com/PaceMe-209051689596687/" target="_blank">-->
+<!--                <i class="fab fa-soundcloud fa-2x"></i>-->
+<!--            </a>-->
+        </div>
+
     </footer>
 
 
