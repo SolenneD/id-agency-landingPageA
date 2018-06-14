@@ -73,19 +73,16 @@ header>.logo{
 	height: 10px;
 	margin: 20px 20px;
 }
+.baseline{
+	margin-bottom: 2%;
+}
 .baseline2{
 	color: #ffffff;
 	text-align: center;
 	font-weight: 200;
 	letter-spacing: 1px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
-iframe body{
-	margin-bottom: 20px;
-	height: auto;
-	font-family: Raleway, Helvetica;
-}
-
 
 h1,h2{
 	text-align: center;
@@ -120,6 +117,7 @@ p{
 /****** HEARTBEAT ********/
 .heartbeat{
 	height: auto;
+	margin-bottom: 2%;
 }
 .path {
 	stroke-dasharray: 1000;
