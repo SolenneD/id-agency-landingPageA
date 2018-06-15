@@ -120,19 +120,19 @@ p{
 	margin-bottom: 2%;
 }
 .path {
-	stroke-dasharray: 1000;
-	stroke-dashoffset: 1000;
-	animation: dash 5s linear alternate infinite;
+	stroke-dasharray: 100%;
+	stroke-dashoffset: -100%;
+	animation: dash 6s linear infinite;
 }
 svg{
 	width: 100%;
 }
 @keyframes dash {
 	from {
-		stroke-dashoffset: 1000;
+		stroke-dashoffset: 100%;
 	}
 	to {
-		stroke-dashoffset: 0;
+		stroke-dashoffset: -100%;
 	}
 }
 
